@@ -1,0 +1,22 @@
+## Fishing
+- [ ] bob movement
+    - omni-directional movement
+    - modifiable speeds in each direction
+        - runtime modifiable
+    - up direction goes towards the target
+    - down direction goes directly down
+    - left and right very limited movement
+- [ ] fish movement
+    - move left/right at a fixed height
+    - move from point A -> B back and forth
+        - choose points A/B randomly
+    - set a curve for the fish to follow
+    - move towards bob
+- [ ] catch system
+    - fish able to detect bob and move towards it
+    - boolean to see if fish attached
+        - collision check with bob and fish's mouth
+    - fish can get unattached
+        - shark biting fish
+        - fish losing grip on bob (OPTIONAL: if too fast?)
+## Money
